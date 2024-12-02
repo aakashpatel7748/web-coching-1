@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+.content1 {
+    width: 100%;
+    height: 100%;
+    background-image: url("photo-1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav {
+    display: flex;
+    padding: 1% 5%;
+    gap: 100px;
+    align-items: center;
+}
+
+.nav>img {
+    width: 50px;
+    /* height: 80px; */
+    /* border-radius: 50%; */
+
+}
+
+.content2 {
+    margin: 8% 5%;
+    color: white;
+}
+
+.content2>h1 {
+    font-size: 45px;
+}
+
+.content2>p {
+    font-size: 15px;
+    padding: 10px 2px;
+}
+
+.content2>button {
+    padding: 8px 12px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* margin: 0 70px; */
+    gap: 17px;
+}
+
+.icon>i {
+    font-size: 20px;
+    padding: 0 5%;
+}
+
+/* ================page2================ */
+
+.page2 {
+    width: 100%;
+}
+
+.pro-detal {
+    margin: 3% 30%;
+}
+
+.pro-detal>h1 {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+.pro-detal>p {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.page2-box {
+    width: 80%;
+    height: 40px;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    margin: 2% 5%;
+}
+
+.page2-box>i {
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.page2-box1 {
+    width: 80%;
+    display: flex;
+    margin: 8% 5%;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 9px;
+}
+
+.page2-box1>.box>img {
+    width: 60%;
+    padding: 30px 0;
+
+}
+
+.box>h3 {
+    padding-top: 20px;
+    font-size: 23px;
+
+}
+
+.box>p {
+    padding: 10px 0;
+    font-size: 15px;
+
+}
+
+/* ================page3=============== */
+
+.page3 {
+    width: 100%;
+    margin: 2% 5%;
+}
+
+
+
+.page3-hading>h1 {
+    font-size: 45px;
+    font-weight: 800;
+    padding: 10px 0;
+    line-height: 1;
+}
+
+.contact {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    margin: 3% 23%;
+    gap: 10px;
+   border: 1px solid green;
+   padding: 10px 9px;
+   border-radius: 5px;
+}
+
+form {
+    width: 50%;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact>h2 {
+    font-size: 25px;
+
+
+}
+
+.contact>p {
+    font-size: 15px;
+    /* padding: 20px ; */
+    padding-bottom: 20px;
+}
+
+label {
+    /* display: block; */
+    font-size: 18px;
+}
+
+.name {
+    padding: 6px 12px;
+    font-size: 15px;
+    margin: 3px 0;
+    color: red;
+}
+
+.email {
+    padding: 6px 12px;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.help {
+    padding: 6px 12px;
+    font-size: 15px;
+    margin: 5px 0;
+}
+
+.name:active{
+    border: none;
+}
+form > button{
+    padding: 3px 2px;
+    margin: 5% 0;
+    font-size: 15px;
+    background-color: aqua;
+    border: none;
+}
+
+.page4 {
+    width: 100%;
+    margin: 3% 5%;
+
+}
+.images{
+    display: flex;
+    width: 100%;
+  
+}
+
+/* .photo{
+    width: 10%;
+    padding: 10px 20px;
+} */
+
+.photo1{
+    
+    width: 10%;
+}
+.photo2{
+  margin-right: 5%;
+  margin-left: 5%;
+    width: 10%;
+
+}
+.photo3{
+   width: 10%;
+  
+}
