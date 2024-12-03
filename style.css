@@ -159,9 +159,9 @@ main {
     /* align-items: center; */
     margin: 3% 23%;
     gap: 10px;
-   border: 1px solid green;
-   padding: 10px 9px;
-   border-radius: 5px;
+    border: 1px solid green;
+    padding: 10px 9px;
+    border-radius: 5px;
 }
 
 form {
@@ -193,7 +193,7 @@ label {
     padding: 6px 12px;
     font-size: 15px;
     margin: 3px 0;
-    color: red;
+    
 }
 
 .email {
@@ -208,44 +208,291 @@ label {
     margin: 5px 0;
 }
 
-.name:active{
+.name:active {
     border: none;
 }
-form > button{
+
+form>button {
     padding: 3px 2px;
     margin: 5% 0;
     font-size: 15px;
-    background-color: aqua;
+    background-color: black;
+    color: white;
     border: none;
+    border-radius: 30px;
 }
+
+
+/* ======================page4========== */
+
 
 .page4 {
     width: 100%;
-    margin: 3% 5%;
+    margin: 6% 5%;
 
 }
-.images{
+
+.page4-content>h1 {
+    font-size: 45px;
+    padding: 10px 0;
+}
+
+.page4-content>p {
+    padding: 2px 0;
+}
+
+.page4-content>button {
+    padding: 8px 12px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.images {
     display: flex;
     width: 100%;
+    margin-top: 20px;
+
+}
+
+.photo>img {
+    width: 85%;
+    padding: 10px 0;
+}
+
+/* ======================border==== */
+.border {
+    border: 1px solid black;
+}
+
+/* =============page5=========== */
+
+.page5 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 3% 5%;
+}
+
+.left-page {
+    padding: 5% 0;
+}
+
+.left-page>h3 {
+    padding: 8px 0;
+}
+
+.footer {
+    display: flex;
+    margin: 3% 5%;
+}
+
+.footer>h1 {
+    font-size: 100px;
+    /* padding: 5% 7%; */
+    font-weight: 900;
+
+
+}
+
+.footer>i {
+    font-size: 40px;
+    padding: 60px 20px;
+    margin-left: 5%;
+}
+/* ===================hover======== */
+.nav >h3:hover{
+    border-bottom: 2px solid red;
   
 }
-
-/* .photo{
-    width: 10%;
-    padding: 10px 20px;
-} */
-
-.photo1{
-    
-    width: 10%;
+.content2 >button:hover{
+    background-color: red;
 }
-.photo2{
-  margin-right: 5%;
-  margin-left: 5%;
-    width: 10%;
 
-}
-.photo3{
-   width: 10%;
-  
+/* ================responsive======== */
+
+@media (max-width:600px) {
+
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .nav {
+        display: none;
+    }
+   
+
+    main {
+        width: 100%;
+        /* height: 100%; */
+    }
+
+    .content1 {
+        width: 295vw;
+        height: 200vh;
+        padding: 10% 0;
+    }
+
+    .content2 {
+        width: 100%;
+
+    }
+
+    .content2>h1 {
+        font-size: 100px;
+        padding: 5% 0;
+    }
+
+    .content2>p {
+        font-size: 25px;
+        padding: 5% 0;
+    }
+
+    .content2>button {
+        font-size: 25px;
+        padding: 9px 18px;
+        margin: 5% 0;
+    }
+
+    .icon>i {
+        font-size: 45px;
+        margin: 2% 0;
+    }
+
+    /* ===========page2===== */
+    .page2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pro-detal>h1 {
+        font-size: 80px;
+    }
+
+    .pro-detal>p {
+        font-size: 35px;
+        display: inline-block;
+    }
+
+    .page2-box {
+        width: 600px;
+        height: 65px;
+        margin: 20px 65px;
+        font-size: 30px;
+    }
+
+    .page2-box>i {
+        font-size: 50px;
+    }
+
+    .page2-box1 {
+        width: 250%;
+        margin: 20px 70px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .page2-box1>.box>img {
+        width: 100%;
+    }
+
+    /* ==============page3========== */
+    .page3 {
+        width: 200%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .page3-hading>h1 {
+        font-size: 80px;
+        padding: 5% 9%;
+    }
+
+    .page3-hading>p {
+        font-size: 28px;
+        padding: 5% 10%;
+        margin-bottom: 5%;
+    }
+
+    .contact {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .contact>h2 {
+        font-size: 30px;
+    }
+
+    .contact>p {
+        font-size: 20px;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    label {
+        font-size: 25px;
+    }
+
+    /* ===============page34========== */
+
+    .page4 {
+        width: 200%;
+    }
+
+    .page4-content>h1 {
+        font-size: 80px;
+        margin: 11%;
+    }
+
+    .page4-content>p {
+        font-size: 30px;
+        margin: 0 11%;
+        display: inline-block;
+    }
+
+    .page4-content>button {
+        padding: 15px 30px;
+        margin: 5% 10%;
+        background-color: black;
+        color: white;
+        font-size: 22px;
+        font-weight: 400;
+    }
+
+    .images {
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .images>.photo>img {
+        width: 100%;
+    }
+
+    /* ===========border========== */
+
+    .border {
+        width: 300%;
+        border: 1px solid black;
+    }
+
+    /* ===============footer========= */
+
+    .page5 {
+        width: 300%;
+    }
 }
